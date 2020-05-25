@@ -5,6 +5,28 @@ React wrapper for UD and unsplash.com based on https://www.npmjs.com/package/rea
 Yes you read that right, that is basically what this component is. It is a react wrapper to **www.unsplash.com** allowing you to
 easily obtain images from this website and place them on your dashboard.
 
+## Parameters
+**-Height**
+Accepts an integer for the value to specify the height of the image you want to display from unsplash.com
+
+**-Width**
+Accepts an integer for the value to specify the height of the image you want to display from unsplash.com
+
+**-Keyword** 
+This parameter accepts a string for the input, you can use multiple words, but separate them by a comma and enclose the 
+complete string in double quotes as shown in the demonstration 
+
+**-CollectionId**
+Accepts an integer of a collection id of pictures from unsplash.com example in demonstration
+
+**-Username**
+Accepts a string for the input, which must be a valid username from unsplash.com please see demonstration
+
+**-PhotoId**
+Accepts a string as the input, whilst browsing unsplash.com if you see a particular image you like, take the photoid from the 
+URL which uniquley identifies the image and use it.  Example in the demonstration.
+
+
 # Demonstration
 
 ```
@@ -50,24 +72,8 @@ Start-UDDashboard -Port 10005 -Dashboard (
 )
 
 ```
+## Which should give you something similar to this:-
 
-## Parameters
-**-Height**
-Accepts an integer for the value to specify the height of the image you want to display from unsplash.com
+![placeholder](https://raw.githubusercontent.com/psDevUK/UD-UnSplash/master/demo.PNG
+"Example using this component")
 
-**-Width**
-Accepts an integer for the value to specify the height of the image you want to display from unsplash.com
-
-**-Keyword** 
-This parameter accepts a string for the input, you can use multiple words, but separate them by a comma and enclose the 
-complete string in double quotes as shown in the demonstration 
-
-**-CollectionId**
-Accepts an integer of a collection id of pictures from unsplash.com example in demonstration
-
-**-Username**
-Accepts a string for the input, which must be a valid username from unsplash.com please see demonstration
-
-**-PhotoId**
-Accepts a string as the input, whilst browsing unsplash.com if you see a particular image you like, take the photoid from the 
-URL which uniquley identifies the image and use it.  Example in the demonstration.
